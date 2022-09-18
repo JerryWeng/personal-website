@@ -4,13 +4,13 @@
 * {
     box-sizing: border-box;
     font-family: 'Popping', sans-serif;
+    margin: 0;
 }
 
 #main{
     color: white;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    margin: 0;
 }
 
 #front-page{
