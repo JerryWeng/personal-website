@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jerry Weng | Porfolio</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="css/frontpage.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/projects.css" />
+  </head>
+
+  <body id="main">
+    <section id="front-page">
+      <div class="background">
+        <video src="videos/pixel-fire.mp4" muted loop autoplay></video>
+        <!-- <audio src="sounds/fire-crackling.mp3" autoplay></audio> -->
+        <div class="overlay"></div>
+      </div>
+
+      <header class="header">
+        <div class="title">
+          <a href="#"
+            ><img
+              src="images/logos/cube-logo.png"
+              alt="A picture of a broken rubik's cube."
+          /></a>
+        </div>
+        <div id="menu-button">
+          <img src="images/menu-icon-light.png" alt="The menu icon" />
+        </div>
+      </header>
+
+      <div class="container">
+        <small> Hey there </small>
+        <h1>Welcome to my website</h1>
+      </div>
+    </section>
+
+    <section id="about-page">
+      <div class="about-content-background">
+        <img src="images/lofi-girl-light.gif" alt="A gif of lofi girl" />
+      </div>
+      <div class="about-content">
+        <div class="portrait">
+          <img src="images/portrait.JPG" alt="A picture of Jerry Weng" />
+        </div>
+        <div class="about-text">
+          <h1>About me</h1>
+          <p>
+            &emsp; Hi! I'm Jerry, an upcoming software developer based in New
+            York. I enjoy creating anything from websites to games and would
+            love to expand my horizons. I love to listen to music and if you
+            couldn't tell my favorite genre is
+            <a
+              href="https://www.youtube.com/watch?v=jfKfPfyJRdk&ab_channel=LofiGirl" target="_blank"
+              >lo-fi</a
+            >.
+            <!-- <br>&emsp;<br> -->
+          </p>
+          <h1>Skills</h1>
+          <div class="skill-list">
+            <ul>
+              <h2>Languages:</h2>
+              <li>Python</li>
+              <li>Java</li>
+              <li>HTML and CSS</li>
+              <li>Java Script</li>
+            </ul>
+            <ul>
+              <h2>Tooling:</h2>
+              <li>Visual Studio Code</li>
+              <li>Git and GitHub</li>
+            </ul>
+          </div>
+          <div class="skill-images">
+            <img src="images/logos/python-logo.png" alt="The css logo" />
+            <img
+              id="java"
+              src="images/logos/java-logo.png"
+              alt="The css logo"
+            />
+            <img src="images/logos/css-logo.png" alt="The css logo" />
+            <img
+              id="html"
+              src="images/logos/html-logo.png"
+              alt="The css logo"
+            />
+            <img src="images/logos/javascript-logo.png" alt="The css logo" />
+            <img src="images/logos/git-logo.png" alt="The css logo" />
+            <img src="images/logos/vsc-logo.png" alt="The css logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects-page">
+      <div class="projects-content">
+        <div class="projects-text">
+          <h1>W.I.P.</h1>
+        </div>
+      </div>
+    </section>
+
+    <div id="menu-bar">
+      <div id="theme">
+        <img id="theme-image" src="images/dark-mode.png" alt="a picture of the moon">
+      </div>
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="#about-page">About me</a>
+        <a href="#projects-page">Projects</a>
+        <a class="contact" href="mailto: mcjerry168@gmail.com">Contact</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/JerryWeng" target="_blank"
+          ><img src="images/github-icon-dark.png" alt="GitHub Icon"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/jerry-weng-6572031a2/"
+          target="_blank"
+          ><img src="images/linkedin-icon-dark.png" alt="LinkedIn Icon"
+        /></a>
+        <a
+          href="https://www.youtube.com/watch?v=jfKfPfyJRdk&ab_channel=LofiGirl"
+          target="_blank"
+          ><img src="images/youtube-icon-dark.png" alt="Youtube Icon"
+        /></a>
+      </div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

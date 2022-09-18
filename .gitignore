@@ -1,0 +1,11 @@
+# assets
+videos
+sounds
+images
+
+
+#bootstrap package
+node_modules
+
+# for mac
+.DS_Store
