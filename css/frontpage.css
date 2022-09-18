@@ -10,6 +10,7 @@
     color: white;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    margin: 0;
 }
 
 #front-page{
